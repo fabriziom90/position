@@ -121,3 +121,19 @@ h2 {
 .z-index-3 {
     z-index: 3;
 }
+
+.hidden {
+    display: none;
+}
+
+.square.bg-red.position-absolute:hover h2.visible {
+    display: none;
+}
+
+.square.bg-red.position-absolute:hover h2.hidden {
+    display: block;
+}
+
+h3:hover {
+    color: #fff
+}

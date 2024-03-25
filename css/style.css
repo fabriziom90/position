@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+h2 {
+    margin: 10px
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-gold {
+    background-color: gold;
+}
+
+.bg-silver {
+    background-color: silver;
+}
+
+.position-relative {
+    /* SPOSTA UN ELEMENTO RISPETTO ALLA SUA POSIZIONE NATURALE ALL'INTERNO DEL DOCUMENTO. GLI ALTRI ELEMENTI NON VENGONO 'TOCCATI' DA QUESTO SPOSTAMENTO OVVERO RIMANGONO DOVE SONO */
+    position: relative;
+}
+
+.bg-blue.position-relative {
+    top: 50px;
+    left: 50px;
+    /* MARGIN SPOSTA UN ELEMENTO ALL'INTERNO DEL DOCUMENTO. UTILIZZANDO MARGIN ANCHE I SUCCESSIVI VENGONO SPOSTATI DI CONSEGUENZA */
+    /* margin-top: 150px;   */
+}

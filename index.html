@@ -9,7 +9,12 @@
 </head>
 
 <body>
-    <h2>Position: static</h2>
+    <div class="height-75 width-100 bg-green position-fixed top-0 left-0 z-index-1">
+        <h2 class="text-white">
+            <h2>Position: fixed</h2>
+        </h2>
+    </div>
+    <h2 class="margin-top-100">Position: static</h2>
     <div class="square bg-red">
 
     </div>
@@ -32,6 +37,13 @@
         <div class="square bg-silver position-absolute"></div>
     </div>
     <div class="bg-gold square"></div>
+    <h2>Z-index</h2>
+    <div class="position-relative">
+        <div class="square bg-red position-absolute z-index-3 top-50 left-50"></div>
+        <div class="square bg-green position-absolute z-index-2 top-25 left-25"></div>
+        <div class="square bg-gold position-absolute z-index-1 top-0 left-0"></div>
+    </div>
+
 </body>
 
 </html>

@@ -64,3 +64,60 @@ h2 {
     top: 100px;
     left: 50px;
 }
+
+.position-fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top-25 {
+    top: 25px;
+}
+
+.left-25 {
+    left: 25px;
+}
+
+.top-50 {
+    top: 50px;
+}
+
+.left-50 {
+    left: 50px;
+}
+
+.height-75 {
+    height: 75px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* Z-INDEX SI UTILIZZA CON VALORE DELLA PROPRIETA' POSITION DIVERSA DA STATIC, ED INDICA COME GLI ELEMENTI DEVONO SCORRERE GLI UNI RISPETTO AGLI ALTRI (UNO SOPRA L'ALTRO). PIU' E' ELEVATO IL VALORE DATO A Z-INDEX PIU' IN ALTO SI POSIZIONERA' */
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
